@@ -13,6 +13,12 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .custom-aldo {
+    font-size: 50px;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +41,58 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.custom-aside {
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.nav-link:hover {
+  /* background-color: rgba(0, 218, 2, 0.5); */
+  text-decoration: underline;
+}
+
+h1,
+h2,
+.custom-aldo {
+  /* font-family: "Anonymous Pro", monospace; */
+  font-family: "VT323", monospace;
+  color: rgb(0, 218, 2);
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "VT323", monospace;
+  color: rgb(0, 218, 2);
+}
+
+hr.green {
+  border-color: rgb(0, 218, 2);
+}
+
+.custom-aldo {
+  /* font-family: "Anonymous Pro", monospace; */
+  /* font-family: "VT323", monospace; */
+  /* font-size: 500%; */
+  font-size: 10vw;
+  font-weight: 700;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.active {
+  color: white;
+  /* background-color: #543c52; */
+  /* text-decoration: underline; */
+  background-color: rgba(0, 218, 2, 0.5);
+}
+
+.box {
+  min-width: 40%;
+  /* max-height: 300px; */
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.proj-list {
+  font-weight: 800;
 }
