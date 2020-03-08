@@ -59,11 +59,13 @@ h2,
   font-family: "VT323", monospace;
   color: rgb(0, 218, 2);
   font-weight: 700;
+  text-shadow: 2px 2px 10px rgb(0, 104, 2);
 }
 
-h3 {
+h3,
+p {
   font-family: "VT323", monospace;
-  color: rgb(0, 218, 2);
+  color: white;
 }
 
 hr.green {
