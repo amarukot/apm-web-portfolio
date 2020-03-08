@@ -134,3 +134,8 @@ hr.green {
   position: relative;
   animation: glitch-skew 1s infinite linear alternate-reverse;
 }
+
+.li-badge {
+  border: solid;
+  border-color: chartreuse;
+}

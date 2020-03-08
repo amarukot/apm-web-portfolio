@@ -5,7 +5,7 @@ function LinkedInBadge() {
     <div
       className="LI-profile-badge mt-5"
       data-version="v1"
-      data-size="medium"
+      data-size="small"
       data-locale="en_US"
       data-type="vertical"
       data-theme="dark"
