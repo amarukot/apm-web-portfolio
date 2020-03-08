@@ -2,18 +2,18 @@ import React from "react";
 
 function SideBar() {
   return (
-    <div className="custom-aside col-sm-4 flex-column mt-5">
+    <div className="custom-aside col-sm-6 flex-column mt-5 pl-5">
       <div className="proj-list mb-5">
         <a
           href="https://www.dropbox.com/s/d7n7qxk226kl4ah/APM-Resume.pdf?dl=0"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>>> CV / résumé</h2>
+          <h2 className="bolder"> => CV / résumé</h2>
         </a>
       </div>
       <div className="proj-list">
-        <h2>>> PROJECTS:</h2>
+        <h2 className="bolder mb-3">=> PROJECTS:</h2>
       </div>
       <div className="proj-list">
         <a
@@ -21,8 +21,11 @@ function SideBar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>... NBA Trivia Game</h2>
+          <h2 className="pl-5">_NBA_Trivia_Game</h2>
         </a>
+        <h3 className="pl-5">
+          First project using JavaScript, HTML, and CSS (Bootstrap4).
+        </h3>
       </div>
       <div className="proj-list">
         <a
@@ -30,8 +33,12 @@ function SideBar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>... Bartender's Guide</h2>
+          <h2 className="pl-5"> _Bartenders_Guide</h2>
         </a>
+        <h3 className="pl-5">
+          Project using API calls, ReactJS (w/hooks), HTML, and CSS
+          (Bootstrap4).
+        </h3>
       </div>
       <div className="proj-list">
         <a
@@ -39,8 +46,12 @@ function SideBar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>... PO Box Zero</h2>
+          <h2 className="pl-5">_PO_Box_Zero</h2>
         </a>
+        <h3 className="pl-5">
+          Project using Python, Django, PostgreSQL, Pillow, Heroku, HTML, and
+          CSS (Bootstrap4).
+        </h3>
       </div>
     </div>
   );

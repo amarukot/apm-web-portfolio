@@ -1,3 +1,11 @@
+/* $font1: "Fira Code";
+$font2: "VT323"; */
+
+:root {
+  --font1: "Fira Code";
+  --font2: "VT323";
+}
+
 .App {
   text-align: center;
 }
@@ -14,6 +22,9 @@
 
 @media screen and (max-width: 600px) {
   .custom-aldo {
+    font-size: 50px;
+  }
+  h2 {
     font-size: 50px;
   }
 }
@@ -55,19 +66,25 @@ h1,
 h2,
 .custom-aldo {
   /* font-family: "Anonymous Pro", monospace; */
-  font-family: "VT323", monospace;
+  font-family: var(--font1), monospace;
   color: rgb(0, 218, 2);
-  font-weight: 700;
+  /* font-weight: 700; */
   text-shadow: 2px 2px 10px rgb(0, 104, 2);
 }
 
 h2 {
-  font-size: 250%;
+  font-size: 200%;
+  font-weight: 500;
+}
+
+h2.bolder {
+  font-size: 225%;
+  font-weight: 700;
 }
 
 h3,
 p {
-  font-family: "VT323", monospace;
+  font-family: var(--font2), monospace;
   color: white;
 }
 
@@ -76,8 +93,9 @@ hr.green {
 }
 
 .custom-aldo {
-  font-size: 10vw;
+  font-size: 6vw;
   font-weight: 700;
+  text-shadow: 2px 2px 10px rgb(0, 104, 2);
   /* background-color: rgba(0, 0, 0, 0.4); */
 }
 
@@ -88,13 +106,6 @@ hr.green {
   background-color: rgba(0, 218, 2, 0.5);
 }
 
-.box {
-  min-width: 40%;
-  /* max-height: 300px; */
-  margin-top: 1rem;
-  margin-right: 1rem;
-}
-
 .proj-list {
   font-weight: 800;
 }
@@ -102,4 +113,18 @@ hr.green {
 .logo {
   height: 50px;
   width: 50px;
+}
+
+@mixin .glitchCopy {
+  content: attr(dataText);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.glitch {
+  position: relative;
+  animation: glitch-skew 1s infinite linear alternate-reverse;
 }
