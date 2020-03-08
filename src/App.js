@@ -21,12 +21,7 @@ function App() {
         // }}
       >
         <NavBar />
-        <hr className="green my-0" />
-        <main
-          className="row h-100 main-section"
-          style={{ backgroundImage: bgImg }}
-        >
-          {/* <Route exact path="/" component={Aldo} /> */}
+        <main className="row h-100 main-section">
           <Aldo />
           <SideBar />
         </main>
