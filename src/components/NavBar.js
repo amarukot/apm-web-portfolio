@@ -1,9 +1,19 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../images/profile-apm.png";
 
 function NavBar() {
   return (
-    <nav className="nav justify-content-center">
+    <nav className="navbar justify-content-center py-0">
+      <a className="navbar-brand" href="/">
+        <img src={logo} className="logo mb-0" alt="aldo" />
+      </a>
+      <button
+        className="navbar-toggler"
+        type="button"
+        dataToggle="collapse"
+        dataTarget="#nav"
+      ></button>
       <NavLink exact activeClassName="active" className="nav-link" to="/">
         <h3>home</h3>
       </NavLink>

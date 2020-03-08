@@ -1,13 +1,11 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
-import logo from "./logo.svg";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Aldo from "./components/Aldo";
 import SideBar from "./components/SideBar";
-import About from "./components/About";
 
-// import NavBar from "./components/NavBar";
+import bgImg from "./images/code-screenshot-dark.png";
 
 function App() {
   return (
@@ -24,7 +22,10 @@ function App() {
       >
         <NavBar />
         <hr className="green my-0" />
-        <main className="row h-100">
+        <main
+          className="row h-100 main-section"
+          style={{ backgroundImage: bgImg }}
+        >
           {/* <Route exact path="/" component={Aldo} /> */}
           <Aldo />
           <SideBar />
