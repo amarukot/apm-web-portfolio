@@ -10,13 +10,19 @@ function SideBar() {
         <h2>>> PROJECTS:</h2>
       </div>
       <div className="proj-list">
-        <h2>... NBA Trivia Game</h2>
+        <a href="http://bit.ly/APM-NBA_Trivia" target="_blank">
+          <h2>... NBA Trivia Game</h2>
+        </a>
       </div>
       <div className="proj-list">
-        <h2>... Bartender's Guide</h2>
+        <a href="http://bit.ly/APM-BartendersGuide" target="_blank">
+          <h2>... Bartender's Guide</h2>
+        </a>
       </div>
       <div className="proj-list">
-        <h2>... PO Box 0</h2>
+        <a href="http://bit.ly/APM-PoBoxZero" target="_blank">
+          <h2>... PO Box Zero</h2>
+        </a>
       </div>
     </div>
   );
