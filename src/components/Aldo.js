@@ -8,7 +8,7 @@ function Aldo() {
     // <div className="col-sm-6 mt-5">
     <div className="container-fluid mt-5">
       <h1 className="custom-aldo glitch" dataText="glitch">
-        Aldo_Marukot:
+        Aldo_Marukot >>
       </h1>
       <h3>>> Software Engineer {"&&"} Graphic Designer</h3>
       {/* <div>

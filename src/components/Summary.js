@@ -12,7 +12,7 @@ function Summary() {
         <a href="https://generalassemb.ly/">General Assembly</a> <br />
         => hobbies = {"{ "}videoGames: {"["}"RPG", "FPS"{"]"}, sports:
         "basketball"
-        {"}"} <br />
+        {" }"} <br />
         => studied Industrial Engineering at De la Salle University in Manila.
         (ANIMO LA SALLE!) <br />
         => co-partner of a Filipino food startup in Massachusetts. <br />
