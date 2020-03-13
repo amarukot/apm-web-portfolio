@@ -1,11 +1,15 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Aldo from "./components/Aldo";
-import SideBar from "./components/SideBar";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Summary from "./components/Summary";
 
-import bgImg from "./images/code-screenshot-dark.png";
+// import bgImg from "./images/code-screenshot-dark.png";
+import LinkedInBadge from "./components/LinkedInBadge";
 
 function App() {
   return (
@@ -21,9 +25,15 @@ function App() {
         // }}
       >
         <NavBar />
-        <main className="row h-100 main-section">
+        <main className="h-100 main-section mx-auto">
           <Aldo />
-          <SideBar />
+          <div className="row mx-auto">
+            <Route path="/" component={Summary} />
+            <Route exact path="/" component={LinkedInBadge} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+          </div>
         </main>
       </div>
     </BrowserRouter>

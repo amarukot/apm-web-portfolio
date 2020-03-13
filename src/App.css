@@ -51,8 +51,9 @@ $font2: "VT323"; */
 }
 
 .nav-link:hover {
-  /* background-color: rgba(0, 218, 2, 0.5); */
-  text-decoration: underline;
+  background-color: rgba(0, 218, 2, 0.5);
+  /* text-decoration: underline #00da02; */
+  color: white;
 }
 
 .navbar {
@@ -60,23 +61,22 @@ $font2: "VT323"; */
 }
 
 .active {
-  color: white;
   /* background-color: #543c52; */
-  /* text-decoration: underline; */
   background-color: rgba(0, 218, 2, 0.5);
 }
 
 h1,
 h2,
-.custom-aldo {
-  /* font-family: "Anonymous Pro", monospace; */
+.custom-aldo,
+.main-font,
+.nav-font {
   font-family: var(--font0), monospace;
   color: rgb(0, 218, 2);
-  /* font-weight: 700; */
   text-shadow: 2px 2px 10px rgb(0, 104, 2);
 }
 
-h2 {
+h2,
+.nav-font {
   font-size: 200%;
   font-weight: 500;
 }

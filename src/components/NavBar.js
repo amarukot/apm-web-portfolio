@@ -15,27 +15,31 @@ function NavBar() {
           dataToggle="collapse"
           dataTarget="#nav"
         ></button>
-        <NavLink exact activeClassName="active" className="nav-link" to="/">
-          <h3>home</h3>
-        </NavLink>
-        <NavLink activeClassName="active" className="nav-link" to="/about">
-          <h3>about</h3>
-        </NavLink>
-        {/* <NavLink
-        activeClassName="active"
-        className="nav-link"
-        to="mailto:aldo.marukot@gmail.com"
-      >
-        <h3>email</h3>
-      </NavLink> */}
-
-        <a
-          className="nav-link"
+        <NavLink
+          exact
           activeClassName="active"
-          href="mailto:aldo.marukot@gmail.com"
+          className="nav-link nav-font px-5"
+          to="/"
         >
-          <h3>email</h3>
-        </a>
+          HOME
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          className="nav-link nav-font px-5"
+          to="/about"
+        >
+          ABOUT
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          className="nav-link nav-font px-5"
+          to="/projects"
+        >
+          PROJECTS
+        </NavLink>
+        {/* <NavLink activeClassName="active" className="nav-link" to="/contact">
+          <h3>contact</h3>
+        </NavLink> */}
       </nav>
       <hr className="green my-0" />
     </div>
