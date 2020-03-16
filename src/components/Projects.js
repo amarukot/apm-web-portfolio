@@ -9,25 +9,14 @@ function Projects() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className="bolder"> => CV / résumé</h2>
+          <h2 className="bolder">>> CV / résumé</h2>
         </a>
       </div>
       <div className="proj-list">
-        <h2 className="bolder mb-3">=> PROJECTS:</h2>
+        <h2 className="bolder mb-3">>> PROJECTS:</h2>
       </div>
-      <div className="proj-list">
-        <a
-          href="http://bit.ly/APM-NBA_Trivia"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="pl-5">_NBA_Trivia_Game</h2>
-        </a>
-        <h3 className="pl-5">
-          First project using JavaScript, HTML, and CSS (Bootstrap4).
-        </h3>
-      </div>
-      <div className="proj-list">
+
+      <div className="proj-list mb-3">
         <a
           href="http://bit.ly/APM-BartendersGuide"
           target="_blank"
@@ -40,7 +29,7 @@ function Projects() {
           (Bootstrap4).
         </h3>
       </div>
-      <div className="proj-list">
+      <div className="proj-list mb-3">
         <a
           href="http://bit.ly/APM-PoBoxZero"
           target="_blank"
@@ -51,6 +40,18 @@ function Projects() {
         <h3 className="pl-5">
           Project using Python, Django, PostgreSQL, Pillow, Heroku, HTML, and
           CSS (Bootstrap4).
+        </h3>
+      </div>
+      <div className="proj-list mb-3">
+        <a
+          href="http://bit.ly/APM-NBA_Trivia"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className="pl-5">_NBA_Trivia_Game</h2>
+        </a>
+        <h3 className="pl-5">
+          First project using JavaScript, HTML, and CSS (Bootstrap4).
         </h3>
       </div>
     </div>
