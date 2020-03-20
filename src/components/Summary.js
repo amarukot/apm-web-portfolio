@@ -5,7 +5,7 @@ function Summary() {
     <div className="custom-aside col-sm-6 mt-5">
       <h2>TL;DR</h2>
       <h3 className=" p-3 mr-3">
-        => born {"&"} raised Filipino; <br />
+        => born {"&&"} raised Filipino; <br />
         => 20+ yrs Graphic Design experience; <br />
         => foodie == true; <br />
         => completed Software Engineering Immersive Course at{" "}
