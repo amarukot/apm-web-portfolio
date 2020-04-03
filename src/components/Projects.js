@@ -67,7 +67,7 @@ function Projects() {
           <h2 className="pl-5">LinkedIn Profile</h2>
         </a>
         <h3 className="pl-5 linespace-med">
-          View detailed work experience & onnect with me.
+          View detailed work experience & connect with me.
         </h3>
       </div>
       <div className="proj-list mb-3">

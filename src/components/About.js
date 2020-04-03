@@ -3,8 +3,8 @@ import React from "react";
 function About() {
   return (
     <div className="col-6 mt-5">
-      <h2>WHO DIS?</h2>
-      <p>
+      <h2 className="bold-text green-text">WHO DIS?</h2>
+      <h3 className="linespace-med">
         => Hello! I am a Software Engineer and Graphic Designer who happens to
         also love food and gaming (surprise). Since I was young, I've had a love
         for drawing, breaking stuff to see how it works, then re-building it
@@ -25,7 +25,7 @@ function About() {
         => Skilled in Full Stack Web Development, JavaScript, ReactJS, Gatsby,
         NextJS, MongoDB, PostgreSQL, Python, Django, and whatever else that
         comes my way... <br />
-      </p>
+      </h3>
     </div>
   );
 }
