@@ -8,6 +8,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Summary from "./components/Summary";
+import Footer from "./components/Footer";
 
 // import bgImg from "./images/code-screenshot-dark.png";
 import LinkedInBadge from "./components/LinkedInBadge";
@@ -27,6 +28,7 @@ function App() {
             <Route path="/contact" component={Contact} />
           </div>
         </main>
+        <Footer />
       </div>
     </BrowserRouter>
   );

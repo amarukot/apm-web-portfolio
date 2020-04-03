@@ -117,6 +117,11 @@ hr.green {
   width: 50px;
 }
 
+#sticky-footer {
+  position: fixed;
+  bottom: 0;
+}
+
 @media only screen and (max-width: 600px) {
   .custom-aldo {
     font-size: 10vmin;

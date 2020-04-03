@@ -1,16 +1,15 @@
 import React from "react";
-// import { Route } from "react-router-dom";
-// import logo from "../images/profile-apm.png";
 
-function Aldo() {
+function Footer() {
   return (
-    <div className="container-fluid mt-5">
-      <h1 className="custom-aldo glitch green-text" dataText="Aldo_Marukot">
-        Aldo_Marukot
-      </h1>
-      <h3>>> Software Engineer {"&&"} Graphic Designer</h3>
-    </div>
+    <footer className="footer" id="">
+      <div className="container ">
+        <p className="text-muted text-center my-3">
+          &copy; 2020 Aldo Marukot | aldo.marukot@gmail.com
+        </p>
+      </div>
+    </footer>
   );
 }
 
-export default Aldo;
+export default Footer;
