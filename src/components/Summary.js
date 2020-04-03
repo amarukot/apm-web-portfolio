@@ -3,8 +3,8 @@ import React from "react";
 function Summary() {
   return (
     <div className="custom-aside col-sm-6 mt-5">
-      <h2>TL;DR</h2>
-      <h3 className=" p-3 mr-3">
+      <h2 className="green-text bold-text">TL;DR</h2>
+      <h3 className=" p-3 mr-3 linespace-med">
         => born {"&&"} raised Filipino; <br />
         => 20+ yrs Graphic Design experience; <br />
         => foodie == true; <br />
@@ -45,8 +45,8 @@ function Summary() {
         )
       </h3>
       <h3>
-        <a className="main-font" href="mailto:aldo.marukot@gmail.com">
-          email me
+        <a className="" href="mailto:aldo.marukot@gmail.com">
+          <i className="fa fa-envelope fa-lg"></i> aldo.marukot@gmail.com
         </a>
       </h3>
     </div>

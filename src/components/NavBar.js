@@ -18,21 +18,21 @@ function NavBar() {
         <NavLink
           exact
           activeClassName="active"
-          className="nav-link nav-font px-5"
+          className="nav-link nav-font px-5 green-text"
           to="/"
         >
           HOME
         </NavLink>
         <NavLink
           activeClassName="active"
-          className="nav-link nav-font px-5"
+          className="nav-link nav-font px-5 green-text"
           to="/about"
         >
           ABOUT
         </NavLink>
         <NavLink
           activeClassName="active"
-          className="nav-link nav-font px-5"
+          className="nav-link nav-font px-5 green-text"
           to="/projects"
         >
           PROJECTS
