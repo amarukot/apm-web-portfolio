@@ -9,10 +9,13 @@ function Summary() {
         => 20+ yrs Graphic Design experience; <br />
         => completed Software Engineering Immersive Course at{" "}
         <a href="https://generalassemb.ly/">General Assembly</a> <br />
-        => hobbies = {"{ "}food: {"["}...cuisines{"]"}, videoGames: {"["}"RPG",
-        "FPS"{"]"}, sports: "basketball"
+        => hobbies = {"{ "}food: {"[ "}...cuisines{" ]"}, videoGames: {"["}
+        "RPG", "FPS"{"]"}, sports: "basketball", movies: {"[ "} ...genres {" ]"}
         {" }"} <br />
         => studied Industrial Engineering at De la Salle University in Manila.{" "}
+        <br />
+        => skillset = {"[ "}JavaScript, React.js, Python, Django, MongoDB,
+        PostgreSQL, HTML, CSS {" ]"}
         <br />
         => co-partner of a Filipino food startup in Massachusetts. <br />
         ...(shameless plug:
