@@ -5,16 +5,15 @@ function Summary() {
     <div className="custom-aside col-sm-6 mt-5">
       <h2 className="green-text bold-text">TL;DR</h2>
       <h3 className=" p-3 mr-3 linespace-med">
-        => born {"&&"} raised Filipino; <br />
+        => Filipino born {"&&"} raised, now living in New England; <br />
         => 20+ yrs Graphic Design experience; <br />
-        => foodie == true; <br />
         => completed Software Engineering Immersive Course at{" "}
         <a href="https://generalassemb.ly/">General Assembly</a> <br />
-        => hobbies = {"{ "}videoGames: {"["}"RPG", "FPS"{"]"}, sports:
-        "basketball"
+        => hobbies = {"{ "}food: {"["}...cuisines{"]"}, videoGames: {"["}"RPG",
+        "FPS"{"]"}, sports: "basketball"
         {" }"} <br />
-        => studied Industrial Engineering at De la Salle University in Manila.
-        (ANIMO LA SALLE!) <br />
+        => studied Industrial Engineering at De la Salle University in Manila.{" "}
+        <br />
         => co-partner of a Filipino food startup in Massachusetts. <br />
         ...(shameless plug:
         <a
