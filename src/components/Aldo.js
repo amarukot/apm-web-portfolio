@@ -4,9 +4,9 @@ import React from "react";
 
 function Aldo() {
   return (
-    <div className="container-fluid mt-5">
-      <h1 className="custom-aldo glitch green-text" dataText="Aldo_Marukot">
-        Aldo_Marukot
+    <div className="container-fluid">
+      <h1 className="custom-aldo glitch green-text" dataText="Aldo.Marukot">
+        Aldo.Marukot
       </h1>
       <h3>>> Software Engineer {"&&"} Graphic Designer</h3>
     </div>

@@ -9,12 +9,6 @@
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -53,7 +47,8 @@ h2,
 }
 
 h3,
-p {
+p,
+span {
   font-family: var(--font2), monospace;
   color: white;
 }
@@ -99,6 +94,7 @@ hr.green {
   background-image: url("./images/code-screenshot-dark.png");
   background-size: cover;
   background-repeat: repeat-y;
+  min-height: calc(100vh - 50px);
 }
 
 .custom-aldo {
@@ -117,9 +113,9 @@ hr.green {
   width: 50px;
 }
 
-#sticky-footer {
-  position: fixed;
-  bottom: 0;
+.my-footer {
+  /* position: sticky; */
+  height: 50px;
 }
 
 @media only screen and (max-width: 600px) {

@@ -16,9 +16,9 @@ import LinkedInBadge from "./components/LinkedInBadge";
 function App() {
   return (
     <BrowserRouter>
-      <div id="main-app" className="container-fluid vh-100">
+      <div id="" className="">
         <NavBar />
-        <main className="h-100 main-section mx-auto">
+        <main className="main-section mx-auto">
           <Aldo />
           <div className="row mx-auto">
             <Route path="/" component={Summary} />
@@ -28,7 +28,14 @@ function App() {
             <Route path="/contact" component={Contact} />
           </div>
         </main>
-        <Footer />
+        {/* <Footer /> */}
+        <footer className="my-footer" id="">
+          <div className="container text-center my-3">
+            <span className="text-muted">
+              &copy; 2020 Aldo Marukot | aldo.marukot@gmail.com
+            </span>
+          </div>
+        </footer>
       </div>
     </BrowserRouter>
   );
