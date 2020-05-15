@@ -95,6 +95,7 @@ hr.green {
   background-size: cover;
   background-repeat: repeat-y;
   min-height: calc(100vh - 50px);
+  padding-left: 40px;
 }
 
 .custom-aldo {

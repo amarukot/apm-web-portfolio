@@ -4,7 +4,7 @@ import React from "react";
 
 function Aldo() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid pt-5">
       <h1 className="custom-aldo glitch green-text" dataText="Aldo.Marukot">
         Aldo.Marukot
       </h1>
