@@ -16,11 +16,11 @@ import LinkedInBadge from "./components/LinkedInBadge";
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="text-center">
         <NavBar />
-        <main className="main-section mx-auto">
+        <main className="mx-auto w-100 d-flex flex-column h-100">
           <Aldo />
-          <div className="row mx-auto">
+          <div className="row mx-auto ">
             <Route path="/" component={Summary} />
             <Route exact path="/" component={LinkedInBadge} />
             <Route path="/about" component={About} />
@@ -28,14 +28,7 @@ function App() {
             <Route path="/contact" component={Contact} />
           </div>
         </main>
-        {/* <Footer /> */}
-        <footer className="my-footer" id="">
-          <div className="container text-center my-3">
-            <span className="text-muted">
-              &copy; 2020 Aldo Marukot | aldo.marukot@gmail.com
-            </span>
-          </div>
-        </footer>
+        <Footer />
       </div>
     </BrowserRouter>
   );
