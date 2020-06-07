@@ -16,7 +16,7 @@ import LinkedInBadge from "./components/LinkedInBadge";
 function App() {
   return (
     <BrowserRouter>
-      <div id="" className="">
+      <div>
         <NavBar />
         <main className="main-section mx-auto">
           <Aldo />

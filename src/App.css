@@ -5,11 +5,11 @@
   --font2: "Oxanium";
 }
 
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -18,7 +18,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -31,7 +31,7 @@
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(37, 37, 37, 1);
 }
 
 .active {
@@ -91,10 +91,11 @@ hr.green {
 }
 
 .main-section {
-  background-image: url("./images/code-screenshot-dark.png");
-  background-size: cover;
-  background-repeat: repeat-y;
-  min-height: calc(100vh - 50px);
+  /* background-image: url("./images/code-screenshot-dark.png"); */
+  background-color: #252525;
+  /* background-size: cover; */
+  /* background-repeat: repeat-y; */
+  /* min-height: calc(100vh - 50px); */
   padding-left: 40px;
 }
 
@@ -112,11 +113,6 @@ hr.green {
 .logo {
   height: 50px;
   width: 50px;
-}
-
-.my-footer {
-  /* position: sticky; */
-  height: 50px;
 }
 
 @media only screen and (max-width: 600px) {

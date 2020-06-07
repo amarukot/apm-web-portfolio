@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer" id="">
+    <footer className="mastfoot mt-auto" id="">
       <div className="container ">
         <p className="text-muted text-center my-3">
           &copy; 2020 Aldo Marukot | aldo.marukot@gmail.com
