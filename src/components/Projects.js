@@ -1,4 +1,7 @@
 import React from "react";
+import thumb1 from "../images/BarGuideImg.png";
+import thumb2 from "../images/POBoxZeroImg.png";
+import thumb3 from "../images/NbaTriviaImg.png";
 
 function Projects() {
   var portfolioLink =
@@ -9,15 +12,16 @@ function Projects() {
         <h2 className="bold-text green-text">>> PROJECTS:</h2>
       </div>
 
-      <div className="proj-list mb-3">
+      <div className="proj-list mb-3 ">
         <a
           href="http://bit.ly/APM-BartendersGuide"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className="pl-5"> Bartenders_Guide</h2>
+          <h2 className=""> Bartenders_Guide</h2>
+          <img className="thumb-img" src={thumb1} />
         </a>
-        <h3 className="pl-5 linespace-med">
+        <h3 className="linespace-med mx-auto pt-2" style={{ width: "500px" }}>
           Cocktail and Mixed Drink recipe search. Built with ReactJS (hooks),
           Bootstrap.
         </h3>
@@ -28,9 +32,10 @@ function Projects() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className="pl-5">PO_Box_Zero</h2>
+          <h2 className="">PO_Box_Zero</h2>
+          <img className="thumb-img" src={thumb2} />
         </a>
-        <h3 className="pl-5 linespace-med">
+        <h3 className=" linespace-med mx-auto pt-2" style={{ width: "500px" }}>
           Anonymous Postcards (Photos/Messages) using Python, Django,
           PostgreSQL, Pillow, Heroku, HTML, CSS, and Bootstrap.
         </h3>
@@ -41,9 +46,10 @@ function Projects() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className="pl-5">NBA_Trivia_Game</h2>
+          <h2 className="">NBA_Trivia_Game</h2>
+          <img className="thumb-img" src={thumb3} />
         </a>
-        <h3 className="pl-5 linespace-med">
+        <h3 className=" linespace-med mx-auto pt-2" style={{ width: "500px" }}>
           Simple trivia game using JavaScript, HTML, and CSS.
         </h3>
       </div>
@@ -52,9 +58,9 @@ function Projects() {
       </div>
       <div className="proj-list mb-3">
         <a href={portfolioLink} target="_blank" rel="noopener noreferrer">
-          <h2 className="pl-5">Download PDF</h2>
+          <h2 className="">Download PDF</h2>
         </a>
-        <h3 className="pl-5 linespace-med">via Dropbox</h3>
+        <h3 className=" linespace-med">via Dropbox</h3>
       </div>
       <div className="proj-list mb-3">
         <a
@@ -62,9 +68,9 @@ function Projects() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className="pl-5">LinkedIn Profile</h2>
+          <h2 className="">LinkedIn Profile</h2>
         </a>
-        <h3 className="pl-5 linespace-med">
+        <h3 className=" linespace-med">
           View detailed work experience & connect with me.
         </h3>
       </div>
@@ -74,9 +80,9 @@ function Projects() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className="pl-5">Behance Profile</h2>
+          <h2 className="">Behance Profile</h2>
         </a>
-        <h3 className="pl-5 linespace-med">Some of my design work.</h3>
+        <h3 className=" linespace-med">Some of my design work.</h3>
       </div>
     </div>
   );

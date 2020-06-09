@@ -115,6 +115,13 @@ hr.green {
   width: 50px;
 }
 
+.thumb-img {
+  height: 200px;
+  width: 300px;
+  border: medium groove rgb(0, 218, 2);
+  object-fit: cover;
+}
+
 @media only screen and (max-width: 600px) {
   .custom-aldo {
     font-size: 10vmin;
