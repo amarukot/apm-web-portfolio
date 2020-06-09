@@ -18,8 +18,8 @@ function Projects() {
           <h2 className="pl-5"> Bartenders_Guide</h2>
         </a>
         <h3 className="pl-5 linespace-med">
-          Project using API calls, ReactJS (w/hooks), HTML, and CSS
-          (Bootstrap4).
+          Cocktail and Mixed Drink recipe search. Built with ReactJS (hooks),
+          Bootstrap.
         </h3>
       </div>
       <div className="proj-list mb-3">
@@ -31,8 +31,8 @@ function Projects() {
           <h2 className="pl-5">PO_Box_Zero</h2>
         </a>
         <h3 className="pl-5 linespace-med">
-          Project using Python, Django, PostgreSQL, Pillow, Heroku, HTML, and
-          CSS (Bootstrap4).
+          Anonymous Postcards (Photos/Messages) using Python, Django,
+          PostgreSQL, Pillow, Heroku, HTML, CSS, and Bootstrap.
         </h3>
       </div>
       <div className="proj-list mb-3">
@@ -44,7 +44,7 @@ function Projects() {
           <h2 className="pl-5">NBA_Trivia_Game</h2>
         </a>
         <h3 className="pl-5 linespace-med">
-          First project using JavaScript, HTML, and CSS (Bootstrap4).
+          Simple trivia game using JavaScript, HTML, and CSS.
         </h3>
       </div>
       <div className="proj-list mb-3 mt-5">
