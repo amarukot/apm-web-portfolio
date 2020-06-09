@@ -4,7 +4,7 @@ function Projects() {
   var portfolioLink =
     "https://www.dropbox.com/s/9s5n074gfc6luyd/APM-Resume-A4-01.pdf?dl=0";
   return (
-    <div className="custom-aside col-sm-6 flex-column mt-5 pl-5">
+    <div className="custom-aside col-sm-6 flex-column mt-5 pl-5 pb-5">
       <div className="proj-list mb-3">
         <h2 className="bold-text green-text">>> PROJECTS:</h2>
       </div>
