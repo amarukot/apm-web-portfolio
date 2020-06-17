@@ -5,7 +5,8 @@ import thumb3 from "../images/NbaTriviaImg.png";
 
 function Projects() {
   var portfolioLink =
-    "https://www.dropbox.com/s/9s5n074gfc6luyd/APM-Resume-A4-01.pdf?dl=0";
+    "https://www.dropbox.com/s/ugqx9704mo06p09/APM-Resume-A4-01.pdf?dl=0";
+  // https://www.dropbox.com/s/ugqx9704mo06p09/APM-Resume-A4-01.pdf?dl=0
   return (
     <div className="custom-aside col-sm-6 flex-column mt-5 pl-5 pb-5">
       <div className="proj-list mb-3">
