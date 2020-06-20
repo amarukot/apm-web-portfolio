@@ -11,17 +11,16 @@ function About() {
         (sometimes), hacking toys (and non-toys) and playing basketball (yes I
         go outside too). In technical high school, I took on Industrial Design
         as my elective. In college, I studied Industrial Engineering in the
-        Philippines. When I came to the US, I worked as a Graphic Designer. I
-        recently completed an Immersive Software Engineering bootcamp at{" "}
-        <a href="https://generalassemb.ly/">General Assembly</a>. <br />
-        => Now I want to find a position and start a career that would fulfill
-        all these interests for me. I normally approach problems like I approach
-        video games and recipes… whether it’s trying to conquer each level
-        (without cheats!) or tweaking a recipe to make it better. My eye for
-        design in conjunction with my coder’s thinking provides a double-edged
-        sword approach to a multitude of situations. Oh, I'm also a co-founder
-        and partner of a startup food company specializing in Filipino food and
-        products. <br />
+        Philippines. I came to the US in 2000 and since then I've worked as a
+        Graphic Designer. Recently, I chose to revive my interest and passion in
+        software engineering so I took an Immersive Software Engineering course
+        at <a href="https://generalassemb.ly/">General Assembly</a>. <br />
+        => Now I'm ready to find a position at a company where I can fulfill all
+        these interests for me. My eye for design in conjunction with my coder’s
+        thinking provides a double-edged sword skillset that is applicable to a
+        multitude of situations. <br />
+        => Oh, I'm also a co-founder and partner of a startup food company
+        specializing in Filipino food and products. <br />
         => Skilled in Full Stack Web Development, JavaScript, ReactJS, Gatsby,
         NextJS, MongoDB, PostgreSQL, Python, Django, and whatever else that
         comes my way... <br />
