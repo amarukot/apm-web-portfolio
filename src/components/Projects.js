@@ -2,6 +2,7 @@ import React from "react";
 import thumb1 from "../images/BarGuideImg.png";
 import thumb2 from "../images/POBoxZeroImg.png";
 import thumb3 from "../images/NbaTriviaImg.png";
+import thumb4 from "../images/FDGA-gatsby.gif";
 
 const Projects = () => {
   var portfolioLink =
@@ -46,6 +47,24 @@ const Projects = () => {
         <h3 className=" linespace-med mx-auto pt-2" style={{ width: "500px" }}>
           Anonymous Postcards (Photos/Messages) using Python, Django,
           PostgreSQL, Pillow, Heroku, HTML, CSS, and Bootstrap.
+        </h3>
+      </div>
+      <div className="proj-list mb-3">
+        <a
+          href="https://fdga-gatsby.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className="">Foodega Website</h2>
+          <img
+            className="thumb-img"
+            src={thumb4}
+            alt="FDGA website screenshot"
+          />
+        </a>
+        <h3 className=" linespace-med mx-auto pt-2" style={{ width: "500px" }}>
+          Static Mockup Website for Foodega, a Filipino food startup. Built
+          using Gatsby.
         </h3>
       </div>
       <div className="proj-list mb-3">
