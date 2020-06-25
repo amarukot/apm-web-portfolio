@@ -3,7 +3,7 @@ import thumb1 from "../images/BarGuideImg.png";
 import thumb2 from "../images/POBoxZeroImg.png";
 import thumb3 from "../images/NbaTriviaImg.png";
 
-function Projects() {
+const Projects = () => {
   var portfolioLink =
     "https://www.dropbox.com/s/ugqx9704mo06p09/APM-Resume-A4-01.pdf?dl=0";
   return (
@@ -98,6 +98,6 @@ function Projects() {
       </div>
     </div>
   );
-}
+};
 
 export default Projects;

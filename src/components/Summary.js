@@ -5,18 +5,19 @@ function Summary() {
     <div className="custom-aside col-sm-6 mt-5 text-left pl-5">
       <h2 className="green-text bold-text">TL;DR</h2>
       <h3 className=" p-3 mr-3 linespace-med">
-        => Filipino born {"&&"} raised, now living in New England; <br />
+        => Filipino born and raised, now living in New England; <br />
         => 20+ yrs Graphic Design experience; <br />
         => completed Software Engineering Immersive Course at{" "}
         <a href="https://generalassemb.ly/">General Assembly</a> <br />
-        => hobbies = {"{ "}food: {"[ "}...cuisines{" ]"}, videoGames: {"["}
-        "RPG", "FPS"{"]"}, sports: "basketball", movies: {"[ "} ...genres {" ]"}
-        {" }"} <br />
         => studied Industrial Engineering at De la Salle University in Manila.{" "}
         <br />
         => skillset = {"[ "}JavaScript, React.js, Python, Django, MongoDB,
         PostgreSQL, HTML, CSS {" ]"}
         <br />
+        => hobbies &#9829; = {"{ "}food: {"[ "}...cuisines{" ]"}, videoGames:{" "}
+        {"["}
+        "RPG", "FPS"{"]"}, sports: "basketball", movies: {"[ "} ...genres {" ]"}
+        {" }"} <br />
         => co-partner of a Filipino food startup in Massachusetts. <br />
         ...(shameless plug:
         <a

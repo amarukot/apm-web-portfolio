@@ -8,7 +8,9 @@ function Aldo() {
       <h1 className="custom-aldo glitch green-text" dataText="Aldo.Marukot">
         Aldo.Marukot
       </h1>
-      <h3>>> Software Engineer {"&&"} Graphic Designer</h3>
+      <h3 style={{ color: "#61dafb" }}>
+        >> Software Engineer {"&&"} Graphic Designer
+      </h3>
     </div>
   );
 }

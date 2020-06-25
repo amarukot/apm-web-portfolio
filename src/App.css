@@ -36,7 +36,9 @@
 
 .active {
   /* background-color: #543c52; */
-  background-color: rgba(0, 218, 2, 0.5);
+  /* background-color: rgba(0, 218, 2, 0.5); */
+  color: white;
+  text-decoration: underline;
 }
 
 h1,
@@ -51,13 +53,16 @@ p,
 span {
   font-family: var(--font2), monospace;
   color: white;
+  font-size: 0.6em;
 }
 
-h2,
-.nav-font {
-  /* font-size: 200%; */
-  font-size: 2vw;
+h2 {
+  font-size: 2em;
   font-weight: 500;
+}
+
+.nav-font {
+  font-size: 1em;
 }
 
 h3 {
