@@ -21,7 +21,7 @@ function App() {
         <main className="mx-auto w-100 d-flex flex-column h-100">
           <Aldo />
           <div className="row mx-auto ">
-            <Route path="/" className="sticky-top" component={Summary} />
+            <Route path="/" component={Summary} />
             <Route exact path="/" component={LinkedInBadge} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />

@@ -2,7 +2,7 @@ import React from "react";
 
 function Summary() {
   return (
-    <div className="custom-aside col-sm-6 mt-5 text-left pl-5">
+    <div className="custom-aside col-sm-6 mt-5 text-left pl-5 sticky-top">
       <h2 className="green-text bold-text">TL;DR</h2>
       <h3 className=" p-3 mr-3 linespace-med">
         => Filipino born and raised, now living in New England; <br />
