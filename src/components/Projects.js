@@ -1,6 +1,6 @@
 import React from "react";
 import thumb1 from "../images/BarGuideImg.png";
-import thumb2 from "../images/POBoxZeroImg.png";
+import thumb2 from "../images/POBoxZero.gif";
 import thumb3 from "../images/NbaTriviaImg.png";
 import thumb4 from "../images/FDGA-gatsby.gif";
 
